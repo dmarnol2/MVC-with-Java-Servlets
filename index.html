@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>lab2_dmarnol2</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+	<style type="text/css">
+
+	.submitLoginButton {
+      border-radius:0px;
+      width: 170px;
+      height:28px;
+      margin-left: 70px;
+      text-align: center;
+      color:black;
+      margin-bottom: 5px; 
+      margin-top: 15px;
+      background-color: #D5F5E3;
+    
+    }
+</style>
+
+  <div id="login">
+  <div class="container"><br><br>
+  <form action="welcome" method="POST" value="male">
+    <div>
+    Firstname: <input type="text"  name="firstname"><br><br>
+    Lastname: <input type="text"  name="lastname"><br><br>
+    Password: <input type="text"  name="password"><br>
+    <input type="submit" action="/enterNames" value="Previous"><br><br>
+    <br><a href="/usercontroller" >Link to page 7 with user info</a>
+	</div>
+  </form> 
+  <form action="/welcome" method="GET" >
+    <input type="submit" name="edit"><br><br>
+  </form>
+
+  <p>Name:
+  
+  </div>
+  </div>
+	
+</body>
+</html>

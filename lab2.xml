@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<users>
+<user>
+	<firstname >David</firstname>
+    <lastname>Arnold</lastname>
+    <languages>
+    	<language>Java</language>
+    	<language>Python</language>
+    </languages>
+	<days>
+		<day>Mon</day>
+		<day>Wed</day>
+		<day>Fri</day>
+	</days>
+	<gender>Male</gender>
+</user>
+<user>
+	<firstname >Sophia</firstname>
+    <lastname>Arnold</lastname>
+    <languages>
+    	<language>Java</language>
+    	<language>Python</language>
+    </languages>
+	<days>
+		<day>Mon</day>
+		<day>Wed</day>
+		<day>Fri</day>
+	</days>
+	<gender>Male</gender>
+</user>
+</users>
